@@ -1,0 +1,1259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045389A228F26FC500A436AD /* __UNI__1F141E6.wgt in Resources */ = {isa = PBXBuildFile; fileRef = 045389A128F26FC500A436AD /* __UNI__1F141E6.wgt */; };
+		04C49BBB28DC79F300BA3AAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C49BBA28DC79F300BA3AAE /* AppDelegate.m */; };
+		04C49BC128DC79F300BA3AAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C49BC028DC79F300BA3AAE /* ViewController.m */; };
+		04C49BC428DC79F300BA3AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C49BC228DC79F300BA3AAE /* Main.storyboard */; };
+		04C49BC628DC79F500BA3AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C49BC528DC79F500BA3AAE /* Assets.xcassets */; };
+		04C49BC928DC79F500BA3AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C49BC728DC79F500BA3AAE /* LaunchScreen.storyboard */; };
+		04C49BCC28DC79F500BA3AAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C49BCB28DC79F500BA3AAE /* main.m */; };
+		04C49BD628DC79F500BA3AAE /* UniSDKDemoForOcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C49BD528DC79F500BA3AAE /* UniSDKDemoForOcTests.m */; };
+		04C49BE028DC79F500BA3AAE /* UniSDKDemoForOcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C49BDF28DC79F500BA3AAE /* UniSDKDemoForOcUITests.m */; };
+		04C49BE228DC79F500BA3AAE /* UniSDKDemoForOcUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C49BE128DC79F500BA3AAE /* UniSDKDemoForOcUITestsLaunchTests.m */; };
+		04C49BF228DC7AB100BA3AAE /* TostaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C49BF028DC7AB100BA3AAE /* TostaObject.m */; };
+		04C49CE628DC7AFA00BA3AAE /* USO_UniDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C49CE128DC7AF900BA3AAE /* USO_UniDataManager.m */; };
+		04C49CE728DC7AFA00BA3AAE /* USO_UniMpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C49CE228DC7AF900BA3AAE /* USO_UniMpManager.m */; };
+		04C49CE928DC7B6600BA3AAE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49CE828DC7B6600BA3AAE /* JavaScriptCore.framework */; };
+		04C49CEB28DC7B6C00BA3AAE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49CEA28DC7B6C00BA3AAE /* AVFoundation.framework */; };
+		04C49CED28DC7B7200BA3AAE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49CEC28DC7B7200BA3AAE /* OpenGLES.framework */; };
+		04C49CEF28DC7B7900BA3AAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49CEE28DC7B7900BA3AAE /* CoreGraphics.framework */; };
+		04C49CF128DC7B7F00BA3AAE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49CF028DC7B7F00BA3AAE /* CoreTelephony.framework */; };
+		04C49CF328DC7B8500BA3AAE /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49CF228DC7B8500BA3AAE /* AddressBook.framework */; };
+		04C49CF528DC7B8B00BA3AAE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49CF428DC7B8B00BA3AAE /* CoreMedia.framework */; };
+		04C49CF728DC7B9200BA3AAE /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49CF628DC7B9200BA3AAE /* AVKit.framework */; };
+		04C49CF928DC7B9900BA3AAE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49CF828DC7B9900BA3AAE /* CoreText.framework */; };
+		04C49CFB28DC7B9F00BA3AAE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49CFA28DC7B9F00BA3AAE /* AssetsLibrary.framework */; };
+		04C49CFD28DC7BA500BA3AAE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49CFC28DC7BA500BA3AAE /* MediaPlayer.framework */; };
+		04C49CFF28DC7BAA00BA3AAE /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49CFE28DC7BAA00BA3AAE /* GLKit.framework */; };
+		04C49D0128DC7BB000BA3AAE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49D0028DC7BB000BA3AAE /* QuartzCore.framework */; };
+		04C49D0328DC7BB500BA3AAE /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49D0228DC7BB500BA3AAE /* QuickLook.framework */; };
+		04C49D0528DC7BBA00BA3AAE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49D0428DC7BBA00BA3AAE /* CoreLocation.framework */; };
+		04C49D0C28DD46B700BA3AAE /* USO_GSGztModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C49D0B28DD46B700BA3AAE /* USO_GSGztModel.m */; };
+		04C49D0F28DD496800BA3AAE /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C49D0D28DD496800BA3AAE /* DBManager.m */; };
+		04C49D1328DD575B00BA3AAE /* NetWorkDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C49D1128DD575B00BA3AAE /* NetWorkDownLoadManager.m */; };
+		04C49F5828DDC53F00BA3AAE /* __uniappes6.js in Resources */ = {isa = PBXBuildFile; fileRef = 04C49EF928DDC53F00BA3AAE /* __uniappes6.js */; };
+		04C49F5928DDC53F00BA3AAE /* uni-jsframework.js in Resources */ = {isa = PBXBuildFile; fileRef = 04C49EFA28DDC53F00BA3AAE /* uni-jsframework.js */; };
+		04C49F5A28DDC53F00BA3AAE /* PandoraApi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04C49EFB28DDC53F00BA3AAE /* PandoraApi.bundle */; };
+		04C49F5B28DDC53F00BA3AAE /* uni-jsframework-vue3.js in Resources */ = {isa = PBXBuildFile; fileRef = 04C49EFC28DDC53F00BA3AAE /* uni-jsframework-vue3.js */; };
+		04C49F5C28DDC53F00BA3AAE /* unincomponents.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04C49EFD28DDC53F00BA3AAE /* unincomponents.ttf */; };
+		04C49F5D28DDC53F00BA3AAE /* weex-polyfill.js in Resources */ = {isa = PBXBuildFile; fileRef = 04C49EFE28DDC53F00BA3AAE /* weex-polyfill.js */; };
+		04C49F5E28DDC53F00BA3AAE /* weexUniJs.js in Resources */ = {isa = PBXBuildFile; fileRef = 04C49EFF28DDC53F00BA3AAE /* weexUniJs.js */; };
+		04C49F5F28DDC53F00BA3AAE /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49F0128DDC53F00BA3AAE /* libSDWebImage.a */; };
+		04C49F6028DDC53F00BA3AAE /* liblibIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49F0228DDC53F00BA3AAE /* liblibIO.a */; };
+		04C49F6128DDC53F00BA3AAE /* liblibWeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49F0328DDC53F00BA3AAE /* liblibWeex.a */; };
+		04C49F6228DDC53F00BA3AAE /* liblibPDRCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49F0428DDC53F00BA3AAE /* liblibPDRCore.a */; };
+		04C49F6328DDC53F00BA3AAE /* liblibNativeUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49F0528DDC53F00BA3AAE /* liblibNativeUI.a */; };
+		04C49F6428DDC53F00BA3AAE /* liblibUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49F0628DDC53F00BA3AAE /* liblibUI.a */; };
+		04C49F6528DDC53F00BA3AAE /* libcoreSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49F0728DDC53F00BA3AAE /* libcoreSupport.a */; };
+		04C49F6628DDC53F00BA3AAE /* liblibStorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49F0828DDC53F00BA3AAE /* liblibStorage.a */; };
+		04C49F6728DDC53F00BA3AAE /* liblibNavigator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49F0928DDC53F00BA3AAE /* liblibNavigator.a */; };
+		04C49F6828DDC53F00BA3AAE /* storage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49F0A28DDC53F00BA3AAE /* storage.framework */; };
+		04C49F6928DDC53F00BA3AAE /* liblibNativeObj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49F0B28DDC53F00BA3AAE /* liblibNativeObj.a */; };
+		04C49F6A28DDC5A700BA3AAE /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49D0628DC7BC200BA3AAE /* libc++.tbd */; };
+		04C49F6B28DDC5B900BA3AAE /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C49D0728DC7BCA00BA3AAE /* libiconv.tbd */; };
+		04C49F7528DDCED900BA3AAE /* SplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C49F7228DDCED800BA3AAE /* SplashView.m */; };
+		04C49F7628DDCED900BA3AAE /* SplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C49F7328DDCED800BA3AAE /* SplashView.xib */; };
+		16416BF0D1DCD9672787A833 /* Pods_UniSDKDemoForOc_UniSDKDemoForOcUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79ACEE451AF52A11D155068 /* Pods_UniSDKDemoForOc_UniSDKDemoForOcUITests.framework */; };
+		38AD4862D44DD16CB973B314 /* Pods_UniSDKDemoForOc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84652C040E3FF336D0FF6882 /* Pods_UniSDKDemoForOc.framework */; };
+		E61AA78F8B45A00E427EF495 /* Pods_UniSDKDemoForOcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B288104E974AF1B3952370 /* Pods_UniSDKDemoForOcTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C49BD228DC79F500BA3AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C49BAE28DC79F300BA3AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C49BB528DC79F300BA3AAE;
+			remoteInfo = UniSDKDemoForOc;
+		};
+		04C49BDC28DC79F500BA3AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C49BAE28DC79F300BA3AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C49BB528DC79F300BA3AAE;
+			remoteInfo = UniSDKDemoForOc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045389A128F26FC500A436AD /* __UNI__1F141E6.wgt */ = {isa = PBXFileReference; lastKnownFileType = file; path = __UNI__1F141E6.wgt; sourceTree = "<group>"; };
+		04C49BB628DC79F300BA3AAE /* UniSDKDemoForOc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniSDKDemoForOc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C49BB928DC79F300BA3AAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04C49BBA28DC79F300BA3AAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04C49BBF28DC79F300BA3AAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04C49BC028DC79F300BA3AAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04C49BC328DC79F300BA3AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C49BC528DC79F500BA3AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C49BC828DC79F500BA3AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C49BCA28DC79F500BA3AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C49BCB28DC79F500BA3AAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C49BD128DC79F500BA3AAE /* UniSDKDemoForOcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniSDKDemoForOcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C49BD528DC79F500BA3AAE /* UniSDKDemoForOcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniSDKDemoForOcTests.m; sourceTree = "<group>"; };
+		04C49BDB28DC79F500BA3AAE /* UniSDKDemoForOcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniSDKDemoForOcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C49BDF28DC79F500BA3AAE /* UniSDKDemoForOcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniSDKDemoForOcUITests.m; sourceTree = "<group>"; };
+		04C49BE128DC79F500BA3AAE /* UniSDKDemoForOcUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniSDKDemoForOcUITestsLaunchTests.m; sourceTree = "<group>"; };
+		04C49BEE28DC7A6200BA3AAE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04C49BF028DC7AB100BA3AAE /* TostaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TostaObject.m; sourceTree = "<group>"; };
+		04C49BF128DC7AB100BA3AAE /* TostaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TostaObject.h; sourceTree = "<group>"; };
+		04C49CE128DC7AF900BA3AAE /* USO_UniDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USO_UniDataManager.m; sourceTree = "<group>"; };
+		04C49CE228DC7AF900BA3AAE /* USO_UniMpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USO_UniMpManager.m; sourceTree = "<group>"; };
+		04C49CE328DC7AF900BA3AAE /* USO_UniDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USO_UniDataManager.h; sourceTree = "<group>"; };
+		04C49CE428DC7AF900BA3AAE /* USO_UniMpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USO_UniMpManager.h; sourceTree = "<group>"; };
+		04C49CE828DC7B6600BA3AAE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		04C49CEA28DC7B6C00BA3AAE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04C49CEC28DC7B7200BA3AAE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		04C49CEE28DC7B7900BA3AAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04C49CF028DC7B7F00BA3AAE /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		04C49CF228DC7B8500BA3AAE /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		04C49CF428DC7B8B00BA3AAE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		04C49CF628DC7B9200BA3AAE /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		04C49CF828DC7B9900BA3AAE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		04C49CFA28DC7B9F00BA3AAE /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		04C49CFC28DC7BA500BA3AAE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		04C49CFE28DC7BAA00BA3AAE /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		04C49D0028DC7BB000BA3AAE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		04C49D0228DC7BB500BA3AAE /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		04C49D0428DC7BBA00BA3AAE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		04C49D0628DC7BC200BA3AAE /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		04C49D0728DC7BCA00BA3AAE /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		04C49D0A28DD46B700BA3AAE /* USO_GSGztModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USO_GSGztModel.h; sourceTree = "<group>"; };
+		04C49D0B28DD46B700BA3AAE /* USO_GSGztModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USO_GSGztModel.m; sourceTree = "<group>"; };
+		04C49D0D28DD496800BA3AAE /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		04C49D0E28DD496800BA3AAE /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		04C49D1128DD575B00BA3AAE /* NetWorkDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkDownLoadManager.m; sourceTree = "<group>"; };
+		04C49D1228DD575B00BA3AAE /* NetWorkDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkDownLoadManager.h; sourceTree = "<group>"; };
+		04C49D1728DDA3A600BA3AAE /* USO_UniMpManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USO_UniMpManagerDelegate.h; sourceTree = "<group>"; };
+		04C49EF928DDC53F00BA3AAE /* __uniappes6.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = __uniappes6.js; sourceTree = "<group>"; };
+		04C49EFA28DDC53F00BA3AAE /* uni-jsframework.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "uni-jsframework.js"; sourceTree = "<group>"; };
+		04C49EFB28DDC53F00BA3AAE /* PandoraApi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PandoraApi.bundle; sourceTree = "<group>"; };
+		04C49EFC28DDC53F00BA3AAE /* uni-jsframework-vue3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "uni-jsframework-vue3.js"; sourceTree = "<group>"; };
+		04C49EFD28DDC53F00BA3AAE /* unincomponents.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = unincomponents.ttf; sourceTree = "<group>"; };
+		04C49EFE28DDC53F00BA3AAE /* weex-polyfill.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "weex-polyfill.js"; sourceTree = "<group>"; };
+		04C49EFF28DDC53F00BA3AAE /* weexUniJs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = weexUniJs.js; sourceTree = "<group>"; };
+		04C49F0128DDC53F00BA3AAE /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDWebImage.a; sourceTree = "<group>"; };
+		04C49F0228DDC53F00BA3AAE /* liblibIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibIO.a; sourceTree = "<group>"; };
+		04C49F0328DDC53F00BA3AAE /* liblibWeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibWeex.a; sourceTree = "<group>"; };
+		04C49F0428DDC53F00BA3AAE /* liblibPDRCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibPDRCore.a; sourceTree = "<group>"; };
+		04C49F0528DDC53F00BA3AAE /* liblibNativeUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibNativeUI.a; sourceTree = "<group>"; };
+		04C49F0628DDC53F00BA3AAE /* liblibUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibUI.a; sourceTree = "<group>"; };
+		04C49F0728DDC53F00BA3AAE /* libcoreSupport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcoreSupport.a; sourceTree = "<group>"; };
+		04C49F0828DDC53F00BA3AAE /* liblibStorage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibStorage.a; sourceTree = "<group>"; };
+		04C49F0928DDC53F00BA3AAE /* liblibNavigator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibNavigator.a; sourceTree = "<group>"; };
+		04C49F0A28DDC53F00BA3AAE /* storage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = storage.framework; sourceTree = "<group>"; };
+		04C49F0B28DDC53F00BA3AAE /* liblibNativeObj.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibNativeObj.a; sourceTree = "<group>"; };
+		04C49F0D28DDC53F00BA3AAE /* DCUniMPSDKEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUniMPSDKEngine.h; sourceTree = "<group>"; };
+		04C49F0E28DDC53F00BA3AAE /* DCUniMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUniMP.h; sourceTree = "<group>"; };
+		04C49F0F28DDC53F00BA3AAE /* DCUniMPConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUniMPConfiguration.h; sourceTree = "<group>"; };
+		04C49F1028DDC53F00BA3AAE /* DCUniMPInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUniMPInstance.h; sourceTree = "<group>"; };
+		04C49F1228DDC53F00BA3AAE /* WXModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXModuleProtocol.h; sourceTree = "<group>"; };
+		04C49F1328DDC53F00BA3AAE /* WXResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXResourceLoader.h; sourceTree = "<group>"; };
+		04C49F1428DDC53F00BA3AAE /* WXApmForInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApmForInstance.h; sourceTree = "<group>"; };
+		04C49F1528DDC53F00BA3AAE /* WXWebSocketHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWebSocketHandler.h; sourceTree = "<group>"; };
+		04C49F1628DDC53F00BA3AAE /* WXImgLoaderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderProtocol.h; sourceTree = "<group>"; };
+		04C49F1728DDC53F00BA3AAE /* WXComponentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXComponentManager.h; sourceTree = "<group>"; };
+		04C49F1828DDC53F00BA3AAE /* WXScrollerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXScrollerProtocol.h; sourceTree = "<group>"; };
+		04C49F1928DDC53F00BA3AAE /* WXRichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXRichText.h; sourceTree = "<group>"; };
+		04C49F1A28DDC53F00BA3AAE /* WXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXView.h; sourceTree = "<group>"; };
+		04C49F1B28DDC53F00BA3AAE /* WXValidateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXValidateProtocol.h; sourceTree = "<group>"; };
+		04C49F1C28DDC53F00BA3AAE /* WXDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDefine.h; sourceTree = "<group>"; };
+		04C49F1D28DDC53F00BA3AAE /* JSContext+Weex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSContext+Weex.h"; sourceTree = "<group>"; };
+		04C49F1E28DDC53F00BA3AAE /* WXExtendCallNativeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXExtendCallNativeProtocol.h; sourceTree = "<group>"; };
+		04C49F1F28DDC53F00BA3AAE /* WXSDKEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSDKEngine.h; sourceTree = "<group>"; };
+		04C49F2028DDC53F00BA3AAE /* style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = style.h; sourceTree = "<group>"; };
+		04C49F2128DDC53F00BA3AAE /* WXResourceRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXResourceRequestHandler.h; sourceTree = "<group>"; };
+		04C49F2228DDC53F00BA3AAE /* WXDisplayLinkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDisplayLinkManager.h; sourceTree = "<group>"; };
+		04C49F2328DDC53F00BA3AAE /* WXUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXUtility.h; sourceTree = "<group>"; };
+		04C49F2428DDC53F00BA3AAE /* WXResourceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXResourceRequest.h; sourceTree = "<group>"; };
+		04C49F2528DDC53F00BA3AAE /* WXConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXConvert.h; sourceTree = "<group>"; };
+		04C49F2628DDC53F00BA3AAE /* WXPageEventNotifyEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXPageEventNotifyEvent.h; sourceTree = "<group>"; };
+		04C49F2728DDC53F00BA3AAE /* WXSDKInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSDKInstance.h; sourceTree = "<group>"; };
+		04C49F2828DDC53F00BA3AAE /* WXSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSDKManager.h; sourceTree = "<group>"; };
+		04C49F2928DDC53F00BA3AAE /* WXDebugTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDebugTool.h; sourceTree = "<group>"; };
+		04C49F2A28DDC53F00BA3AAE /* WXType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXType.h; sourceTree = "<group>"; };
+		04C49F2B28DDC53F00BA3AAE /* WXApmProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApmProtocol.h; sourceTree = "<group>"; };
+		04C49F2C28DDC53F00BA3AAE /* WXJSFrameworkLoadProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXJSFrameworkLoadProtocol.h; sourceTree = "<group>"; };
+		04C49F2D28DDC53F00BA3AAE /* WXExceptionUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXExceptionUtils.h; sourceTree = "<group>"; };
+		04C49F2E28DDC53F00BA3AAE /* WXIndicatorComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXIndicatorComponent.h; sourceTree = "<group>"; };
+		04C49F2F28DDC53F00BA3AAE /* WXErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXErrorView.h; sourceTree = "<group>"; };
+		04C49F3028DDC53F00BA3AAE /* NSObject+WXSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WXSwizzle.h"; sourceTree = "<group>"; };
+		04C49F3128DDC53F00BA3AAE /* WXMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMonitor.h; sourceTree = "<group>"; };
+		04C49F3228DDC53F00BA3AAE /* WXSDKInstance+DCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSDKInstance+DCExtend.h"; sourceTree = "<group>"; };
+		04C49F3328DDC53F00BA3AAE /* WXRecyclerComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXRecyclerComponent.h; sourceTree = "<group>"; };
+		04C49F3428DDC53F00BA3AAE /* WXScrollerComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXScrollerComponent.h; sourceTree = "<group>"; };
+		04C49F3528DDC53F00BA3AAE /* WXNetworkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNetworkProtocol.h; sourceTree = "<group>"; };
+		04C49F3628DDC53F00BA3AAE /* WXTracingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTracingManager.h; sourceTree = "<group>"; };
+		04C49F3728DDC53F00BA3AAE /* WXComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXComponent.h; sourceTree = "<group>"; };
+		04C49F3828DDC53F00BA3AAE /* WXPrerenderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXPrerenderManager.h; sourceTree = "<group>"; };
+		04C49F3928DDC53F00BA3AAE /* WXComponent+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXComponent+Layout.h"; sourceTree = "<group>"; };
+		04C49F3A28DDC53F00BA3AAE /* layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layout.h; sourceTree = "<group>"; };
+		04C49F3B28DDC53F00BA3AAE /* WXSDKInstance+Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSDKInstance+Bridge.h"; sourceTree = "<group>"; };
+		04C49F3C28DDC53F00BA3AAE /* UniPluginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniPluginProtocol.h; sourceTree = "<group>"; };
+		04C49F3D28DDC53F00BA3AAE /* WXModalUIModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXModalUIModule.h; sourceTree = "<group>"; };
+		04C49F3E28DDC53F00BA3AAE /* WXAnalyzerCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAnalyzerCenter.h; sourceTree = "<group>"; };
+		04C49F3F28DDC53F00BA3AAE /* WXVoiceOverModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXVoiceOverModule.h; sourceTree = "<group>"; };
+		04C49F4028DDC53F00BA3AAE /* WXRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXRootView.h; sourceTree = "<group>"; };
+		04C49F4128DDC53F00BA3AAE /* WXAppConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAppConfiguration.h; sourceTree = "<group>"; };
+		04C49F4228DDC53F00BA3AAE /* WXListComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXListComponent.h; sourceTree = "<group>"; };
+		04C49F4328DDC53F00BA3AAE /* WXSDKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSDKError.h; sourceTree = "<group>"; };
+		04C49F4428DDC53F00BA3AAE /* WXRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXRootViewController.h; sourceTree = "<group>"; };
+		04C49F4528DDC53F00BA3AAE /* WXNavigationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNavigationProtocol.h; sourceTree = "<group>"; };
+		04C49F4628DDC53F00BA3AAE /* WXAnalyzerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAnalyzerProtocol.h; sourceTree = "<group>"; };
+		04C49F4728DDC53F00BA3AAE /* WeexSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeexSDK.h; sourceTree = "<group>"; };
+		04C49F4828DDC53F00BA3AAE /* WXBridgeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBridgeManager.h; sourceTree = "<group>"; };
+		04C49F4928DDC53F00BA3AAE /* WXResourceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXResourceResponse.h; sourceTree = "<group>"; };
+		04C49F4A28DDC53F00BA3AAE /* WXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBaseViewController.h; sourceTree = "<group>"; };
+		04C49F4B28DDC53F00BA3AAE /* WXAppMonitorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAppMonitorProtocol.h; sourceTree = "<group>"; };
+		04C49F4C28DDC53F00BA3AAE /* WeexProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeexProtocol.h; sourceTree = "<group>"; };
+		04C49F4D28DDC53F00BA3AAE /* WXJSExceptionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXJSExceptionProtocol.h; sourceTree = "<group>"; };
+		04C49F4E28DDC53F00BA3AAE /* WXJSExceptionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXJSExceptionInfo.h; sourceTree = "<group>"; };
+		04C49F4F28DDC53F00BA3AAE /* WXTracingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTracingProtocol.h; sourceTree = "<group>"; };
+		04C49F5028DDC53F00BA3AAE /* flex_enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flex_enum.h; sourceTree = "<group>"; };
+		04C49F5128DDC53F00BA3AAE /* WXConfigCenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXConfigCenterProtocol.h; sourceTree = "<group>"; };
+		04C49F5228DDC53F00BA3AAE /* WXEventModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXEventModuleProtocol.h; sourceTree = "<group>"; };
+		04C49F5328DDC53F00BA3AAE /* WXURLRewriteProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXURLRewriteProtocol.h; sourceTree = "<group>"; };
+		04C49F5428DDC53F00BA3AAE /* WXAComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAComponent.h; sourceTree = "<group>"; };
+		04C49F5528DDC53F00BA3AAE /* WXBridgeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBridgeProtocol.h; sourceTree = "<group>"; };
+		04C49F5628DDC53F00BA3AAE /* DCUniMPError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUniMPError.h; sourceTree = "<group>"; };
+		04C49F5728DDC53F00BA3AAE /* DCUniMPMenuActionSheetStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUniMPMenuActionSheetStyle.h; sourceTree = "<group>"; };
+		04C49F7228DDCED800BA3AAE /* SplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashView.m; sourceTree = "<group>"; };
+		04C49F7328DDCED800BA3AAE /* SplashView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashView.xib; sourceTree = "<group>"; };
+		04C49F7428DDCED800BA3AAE /* SplashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashView.h; sourceTree = "<group>"; };
+		12F93D7A0E678E460505D154 /* Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests.debug.xcconfig"; path = "Target Support Files/Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests/Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		155F041A12B1D9F158EA6961 /* Pods-UniSDKDemoForOcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniSDKDemoForOcTests.release.xcconfig"; path = "Target Support Files/Pods-UniSDKDemoForOcTests/Pods-UniSDKDemoForOcTests.release.xcconfig"; sourceTree = "<group>"; };
+		16B288104E974AF1B3952370 /* Pods_UniSDKDemoForOcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniSDKDemoForOcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		170F11A7DF3FEFA5894DF893 /* Pods-UniSDKDemoForOcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniSDKDemoForOcTests.debug.xcconfig"; path = "Target Support Files/Pods-UniSDKDemoForOcTests/Pods-UniSDKDemoForOcTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84652C040E3FF336D0FF6882 /* Pods_UniSDKDemoForOc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniSDKDemoForOc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF5AC427B65EC5B95DDA72E /* Pods-UniSDKDemoForOc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniSDKDemoForOc.debug.xcconfig"; path = "Target Support Files/Pods-UniSDKDemoForOc/Pods-UniSDKDemoForOc.debug.xcconfig"; sourceTree = "<group>"; };
+		D255DBDEECC7754353F8D764 /* Pods-UniSDKDemoForOc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniSDKDemoForOc.release.xcconfig"; path = "Target Support Files/Pods-UniSDKDemoForOc/Pods-UniSDKDemoForOc.release.xcconfig"; sourceTree = "<group>"; };
+		F026B189C9E8555C64DE26B6 /* Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests.release.xcconfig"; path = "Target Support Files/Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests/Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F79ACEE451AF52A11D155068 /* Pods_UniSDKDemoForOc_UniSDKDemoForOcUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniSDKDemoForOc_UniSDKDemoForOcUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C49BB328DC79F300BA3AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C49CEB28DC7B6C00BA3AAE /* AVFoundation.framework in Frameworks */,
+				04C49F6328DDC53F00BA3AAE /* liblibNativeUI.a in Frameworks */,
+				38AD4862D44DD16CB973B314 /* Pods_UniSDKDemoForOc.framework in Frameworks */,
+				04C49D0528DC7BBA00BA3AAE /* CoreLocation.framework in Frameworks */,
+				04C49CF528DC7B8B00BA3AAE /* CoreMedia.framework in Frameworks */,
+				04C49CEF28DC7B7900BA3AAE /* CoreGraphics.framework in Frameworks */,
+				04C49CFF28DC7BAA00BA3AAE /* GLKit.framework in Frameworks */,
+				04C49F6528DDC53F00BA3AAE /* libcoreSupport.a in Frameworks */,
+				04C49CE928DC7B6600BA3AAE /* JavaScriptCore.framework in Frameworks */,
+				04C49CF728DC7B9200BA3AAE /* AVKit.framework in Frameworks */,
+				04C49F6828DDC53F00BA3AAE /* storage.framework in Frameworks */,
+				04C49D0128DC7BB000BA3AAE /* QuartzCore.framework in Frameworks */,
+				04C49CF928DC7B9900BA3AAE /* CoreText.framework in Frameworks */,
+				04C49D0328DC7BB500BA3AAE /* QuickLook.framework in Frameworks */,
+				04C49CF328DC7B8500BA3AAE /* AddressBook.framework in Frameworks */,
+				04C49F5F28DDC53F00BA3AAE /* libSDWebImage.a in Frameworks */,
+				04C49F6028DDC53F00BA3AAE /* liblibIO.a in Frameworks */,
+				04C49F6928DDC53F00BA3AAE /* liblibNativeObj.a in Frameworks */,
+				04C49CFB28DC7B9F00BA3AAE /* AssetsLibrary.framework in Frameworks */,
+				04C49F6628DDC53F00BA3AAE /* liblibStorage.a in Frameworks */,
+				04C49CED28DC7B7200BA3AAE /* OpenGLES.framework in Frameworks */,
+				04C49F6428DDC53F00BA3AAE /* liblibUI.a in Frameworks */,
+				04C49F6A28DDC5A700BA3AAE /* libc++.tbd in Frameworks */,
+				04C49F6728DDC53F00BA3AAE /* liblibNavigator.a in Frameworks */,
+				04C49CF128DC7B7F00BA3AAE /* CoreTelephony.framework in Frameworks */,
+				04C49F6B28DDC5B900BA3AAE /* libiconv.tbd in Frameworks */,
+				04C49F6128DDC53F00BA3AAE /* liblibWeex.a in Frameworks */,
+				04C49CFD28DC7BA500BA3AAE /* MediaPlayer.framework in Frameworks */,
+				04C49F6228DDC53F00BA3AAE /* liblibPDRCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C49BCE28DC79F500BA3AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61AA78F8B45A00E427EF495 /* Pods_UniSDKDemoForOcTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C49BD828DC79F500BA3AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16416BF0D1DCD9672787A833 /* Pods_UniSDKDemoForOc_UniSDKDemoForOcUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C49BAD28DC79F300BA3AAE = {
+			isa = PBXGroup;
+			children = (
+				04C49BB828DC79F300BA3AAE /* UniSDKDemoForOc */,
+				04C49BD428DC79F500BA3AAE /* UniSDKDemoForOcTests */,
+				04C49BDE28DC79F500BA3AAE /* UniSDKDemoForOcUITests */,
+				04C49BB728DC79F300BA3AAE /* Products */,
+				1F1FB4FCF196781FB3D121A8 /* Pods */,
+				A1F1C37689834716735F155C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04C49BB728DC79F300BA3AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C49BB628DC79F300BA3AAE /* UniSDKDemoForOc.app */,
+				04C49BD128DC79F500BA3AAE /* UniSDKDemoForOcTests.xctest */,
+				04C49BDB28DC79F500BA3AAE /* UniSDKDemoForOcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C49BB828DC79F300BA3AAE /* UniSDKDemoForOc */ = {
+			isa = PBXGroup;
+			children = (
+				04C49BEF28DC7AB100BA3AAE /* Tools */,
+				04C49BF328DC7AE000BA3AAE /* Vendor */,
+				04C49BB928DC79F300BA3AAE /* AppDelegate.h */,
+				04C49BBA28DC79F300BA3AAE /* AppDelegate.m */,
+				04C49BBF28DC79F300BA3AAE /* ViewController.h */,
+				04C49BC028DC79F300BA3AAE /* ViewController.m */,
+				04C49BC228DC79F300BA3AAE /* Main.storyboard */,
+				04C49BC528DC79F500BA3AAE /* Assets.xcassets */,
+				04C49BC728DC79F500BA3AAE /* LaunchScreen.storyboard */,
+				04C49BCA28DC79F500BA3AAE /* Info.plist */,
+				04C49BCB28DC79F500BA3AAE /* main.m */,
+				04C49BEE28DC7A6200BA3AAE /* PrefixHeader.pch */,
+			);
+			path = UniSDKDemoForOc;
+			sourceTree = "<group>";
+		};
+		04C49BD428DC79F500BA3AAE /* UniSDKDemoForOcTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C49BD528DC79F500BA3AAE /* UniSDKDemoForOcTests.m */,
+			);
+			path = UniSDKDemoForOcTests;
+			sourceTree = "<group>";
+		};
+		04C49BDE28DC79F500BA3AAE /* UniSDKDemoForOcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04C49BDF28DC79F500BA3AAE /* UniSDKDemoForOcUITests.m */,
+				04C49BE128DC79F500BA3AAE /* UniSDKDemoForOcUITestsLaunchTests.m */,
+			);
+			path = UniSDKDemoForOcUITests;
+			sourceTree = "<group>";
+		};
+		04C49BEF28DC7AB100BA3AAE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				04C49CE028DC7AF900BA3AAE /* UniMpManager */,
+				04C49BF028DC7AB100BA3AAE /* TostaObject.m */,
+				04C49BF128DC7AB100BA3AAE /* TostaObject.h */,
+				04C49F7428DDCED800BA3AAE /* SplashView.h */,
+				04C49F7228DDCED800BA3AAE /* SplashView.m */,
+				04C49F7328DDCED800BA3AAE /* SplashView.xib */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		04C49BF328DC7AE000BA3AAE /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				04C49BF428DC7AE000BA3AAE /* UniMPSDK */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		04C49BF428DC7AE000BA3AAE /* UniMPSDK */ = {
+			isa = PBXGroup;
+			children = (
+				04C49EF728DDC53F00BA3AAE /* Core */,
+			);
+			path = UniMPSDK;
+			sourceTree = "<group>";
+		};
+		04C49CE028DC7AF900BA3AAE /* UniMpManager */ = {
+			isa = PBXGroup;
+			children = (
+				04C49CE528DC7AF900BA3AAE /* WgtGroup */,
+				04C49D1028DD574100BA3AAE /* Network */,
+				04C49CE428DC7AF900BA3AAE /* USO_UniMpManager.h */,
+				04C49CE228DC7AF900BA3AAE /* USO_UniMpManager.m */,
+				04C49D1728DDA3A600BA3AAE /* USO_UniMpManagerDelegate.h */,
+				04C49CE328DC7AF900BA3AAE /* USO_UniDataManager.h */,
+				04C49CE128DC7AF900BA3AAE /* USO_UniDataManager.m */,
+				04C49D0A28DD46B700BA3AAE /* USO_GSGztModel.h */,
+				04C49D0B28DD46B700BA3AAE /* USO_GSGztModel.m */,
+				04C49D0E28DD496800BA3AAE /* DBManager.h */,
+				04C49D0D28DD496800BA3AAE /* DBManager.m */,
+			);
+			path = UniMpManager;
+			sourceTree = "<group>";
+		};
+		04C49CE528DC7AF900BA3AAE /* WgtGroup */ = {
+			isa = PBXGroup;
+			children = (
+				045389A128F26FC500A436AD /* __UNI__1F141E6.wgt */,
+			);
+			path = WgtGroup;
+			sourceTree = "<group>";
+		};
+		04C49D1028DD574100BA3AAE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				04C49D1228DD575B00BA3AAE /* NetWorkDownLoadManager.h */,
+				04C49D1128DD575B00BA3AAE /* NetWorkDownLoadManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		04C49EF728DDC53F00BA3AAE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				04C49EF828DDC53F00BA3AAE /* Resources */,
+				04C49F0028DDC53F00BA3AAE /* Libs */,
+				04C49F0C28DDC53F00BA3AAE /* Headers */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		04C49EF828DDC53F00BA3AAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04C49EF928DDC53F00BA3AAE /* __uniappes6.js */,
+				04C49EFA28DDC53F00BA3AAE /* uni-jsframework.js */,
+				04C49EFB28DDC53F00BA3AAE /* PandoraApi.bundle */,
+				04C49EFC28DDC53F00BA3AAE /* uni-jsframework-vue3.js */,
+				04C49EFD28DDC53F00BA3AAE /* unincomponents.ttf */,
+				04C49EFE28DDC53F00BA3AAE /* weex-polyfill.js */,
+				04C49EFF28DDC53F00BA3AAE /* weexUniJs.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04C49F0028DDC53F00BA3AAE /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				04C49F0128DDC53F00BA3AAE /* libSDWebImage.a */,
+				04C49F0228DDC53F00BA3AAE /* liblibIO.a */,
+				04C49F0328DDC53F00BA3AAE /* liblibWeex.a */,
+				04C49F0428DDC53F00BA3AAE /* liblibPDRCore.a */,
+				04C49F0528DDC53F00BA3AAE /* liblibNativeUI.a */,
+				04C49F0628DDC53F00BA3AAE /* liblibUI.a */,
+				04C49F0728DDC53F00BA3AAE /* libcoreSupport.a */,
+				04C49F0828DDC53F00BA3AAE /* liblibStorage.a */,
+				04C49F0928DDC53F00BA3AAE /* liblibNavigator.a */,
+				04C49F0A28DDC53F00BA3AAE /* storage.framework */,
+				04C49F0B28DDC53F00BA3AAE /* liblibNativeObj.a */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		04C49F0C28DDC53F00BA3AAE /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				04C49F0D28DDC53F00BA3AAE /* DCUniMPSDKEngine.h */,
+				04C49F0E28DDC53F00BA3AAE /* DCUniMP.h */,
+				04C49F0F28DDC53F00BA3AAE /* DCUniMPConfiguration.h */,
+				04C49F1028DDC53F00BA3AAE /* DCUniMPInstance.h */,
+				04C49F1128DDC53F00BA3AAE /* weexHeader */,
+				04C49F5628DDC53F00BA3AAE /* DCUniMPError.h */,
+				04C49F5728DDC53F00BA3AAE /* DCUniMPMenuActionSheetStyle.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		04C49F1128DDC53F00BA3AAE /* weexHeader */ = {
+			isa = PBXGroup;
+			children = (
+				04C49F1228DDC53F00BA3AAE /* WXModuleProtocol.h */,
+				04C49F1328DDC53F00BA3AAE /* WXResourceLoader.h */,
+				04C49F1428DDC53F00BA3AAE /* WXApmForInstance.h */,
+				04C49F1528DDC53F00BA3AAE /* WXWebSocketHandler.h */,
+				04C49F1628DDC53F00BA3AAE /* WXImgLoaderProtocol.h */,
+				04C49F1728DDC53F00BA3AAE /* WXComponentManager.h */,
+				04C49F1828DDC53F00BA3AAE /* WXScrollerProtocol.h */,
+				04C49F1928DDC53F00BA3AAE /* WXRichText.h */,
+				04C49F1A28DDC53F00BA3AAE /* WXView.h */,
+				04C49F1B28DDC53F00BA3AAE /* WXValidateProtocol.h */,
+				04C49F1C28DDC53F00BA3AAE /* WXDefine.h */,
+				04C49F1D28DDC53F00BA3AAE /* JSContext+Weex.h */,
+				04C49F1E28DDC53F00BA3AAE /* WXExtendCallNativeProtocol.h */,
+				04C49F1F28DDC53F00BA3AAE /* WXSDKEngine.h */,
+				04C49F2028DDC53F00BA3AAE /* style.h */,
+				04C49F2128DDC53F00BA3AAE /* WXResourceRequestHandler.h */,
+				04C49F2228DDC53F00BA3AAE /* WXDisplayLinkManager.h */,
+				04C49F2328DDC53F00BA3AAE /* WXUtility.h */,
+				04C49F2428DDC53F00BA3AAE /* WXResourceRequest.h */,
+				04C49F2528DDC53F00BA3AAE /* WXConvert.h */,
+				04C49F2628DDC53F00BA3AAE /* WXPageEventNotifyEvent.h */,
+				04C49F2728DDC53F00BA3AAE /* WXSDKInstance.h */,
+				04C49F2828DDC53F00BA3AAE /* WXSDKManager.h */,
+				04C49F2928DDC53F00BA3AAE /* WXDebugTool.h */,
+				04C49F2A28DDC53F00BA3AAE /* WXType.h */,
+				04C49F2B28DDC53F00BA3AAE /* WXApmProtocol.h */,
+				04C49F2C28DDC53F00BA3AAE /* WXJSFrameworkLoadProtocol.h */,
+				04C49F2D28DDC53F00BA3AAE /* WXExceptionUtils.h */,
+				04C49F2E28DDC53F00BA3AAE /* WXIndicatorComponent.h */,
+				04C49F2F28DDC53F00BA3AAE /* WXErrorView.h */,
+				04C49F3028DDC53F00BA3AAE /* NSObject+WXSwizzle.h */,
+				04C49F3128DDC53F00BA3AAE /* WXMonitor.h */,
+				04C49F3228DDC53F00BA3AAE /* WXSDKInstance+DCExtend.h */,
+				04C49F3328DDC53F00BA3AAE /* WXRecyclerComponent.h */,
+				04C49F3428DDC53F00BA3AAE /* WXScrollerComponent.h */,
+				04C49F3528DDC53F00BA3AAE /* WXNetworkProtocol.h */,
+				04C49F3628DDC53F00BA3AAE /* WXTracingManager.h */,
+				04C49F3728DDC53F00BA3AAE /* WXComponent.h */,
+				04C49F3828DDC53F00BA3AAE /* WXPrerenderManager.h */,
+				04C49F3928DDC53F00BA3AAE /* WXComponent+Layout.h */,
+				04C49F3A28DDC53F00BA3AAE /* layout.h */,
+				04C49F3B28DDC53F00BA3AAE /* WXSDKInstance+Bridge.h */,
+				04C49F3C28DDC53F00BA3AAE /* UniPluginProtocol.h */,
+				04C49F3D28DDC53F00BA3AAE /* WXModalUIModule.h */,
+				04C49F3E28DDC53F00BA3AAE /* WXAnalyzerCenter.h */,
+				04C49F3F28DDC53F00BA3AAE /* WXVoiceOverModule.h */,
+				04C49F4028DDC53F00BA3AAE /* WXRootView.h */,
+				04C49F4128DDC53F00BA3AAE /* WXAppConfiguration.h */,
+				04C49F4228DDC53F00BA3AAE /* WXListComponent.h */,
+				04C49F4328DDC53F00BA3AAE /* WXSDKError.h */,
+				04C49F4428DDC53F00BA3AAE /* WXRootViewController.h */,
+				04C49F4528DDC53F00BA3AAE /* WXNavigationProtocol.h */,
+				04C49F4628DDC53F00BA3AAE /* WXAnalyzerProtocol.h */,
+				04C49F4728DDC53F00BA3AAE /* WeexSDK.h */,
+				04C49F4828DDC53F00BA3AAE /* WXBridgeManager.h */,
+				04C49F4928DDC53F00BA3AAE /* WXResourceResponse.h */,
+				04C49F4A28DDC53F00BA3AAE /* WXBaseViewController.h */,
+				04C49F4B28DDC53F00BA3AAE /* WXAppMonitorProtocol.h */,
+				04C49F4C28DDC53F00BA3AAE /* WeexProtocol.h */,
+				04C49F4D28DDC53F00BA3AAE /* WXJSExceptionProtocol.h */,
+				04C49F4E28DDC53F00BA3AAE /* WXJSExceptionInfo.h */,
+				04C49F4F28DDC53F00BA3AAE /* WXTracingProtocol.h */,
+				04C49F5028DDC53F00BA3AAE /* flex_enum.h */,
+				04C49F5128DDC53F00BA3AAE /* WXConfigCenterProtocol.h */,
+				04C49F5228DDC53F00BA3AAE /* WXEventModuleProtocol.h */,
+				04C49F5328DDC53F00BA3AAE /* WXURLRewriteProtocol.h */,
+				04C49F5428DDC53F00BA3AAE /* WXAComponent.h */,
+				04C49F5528DDC53F00BA3AAE /* WXBridgeProtocol.h */,
+			);
+			path = weexHeader;
+			sourceTree = "<group>";
+		};
+		1F1FB4FCF196781FB3D121A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BF5AC427B65EC5B95DDA72E /* Pods-UniSDKDemoForOc.debug.xcconfig */,
+				D255DBDEECC7754353F8D764 /* Pods-UniSDKDemoForOc.release.xcconfig */,
+				12F93D7A0E678E460505D154 /* Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests.debug.xcconfig */,
+				F026B189C9E8555C64DE26B6 /* Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests.release.xcconfig */,
+				170F11A7DF3FEFA5894DF893 /* Pods-UniSDKDemoForOcTests.debug.xcconfig */,
+				155F041A12B1D9F158EA6961 /* Pods-UniSDKDemoForOcTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A1F1C37689834716735F155C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C49D0728DC7BCA00BA3AAE /* libiconv.tbd */,
+				04C49D0628DC7BC200BA3AAE /* libc++.tbd */,
+				04C49D0428DC7BBA00BA3AAE /* CoreLocation.framework */,
+				04C49D0228DC7BB500BA3AAE /* QuickLook.framework */,
+				04C49D0028DC7BB000BA3AAE /* QuartzCore.framework */,
+				04C49CFE28DC7BAA00BA3AAE /* GLKit.framework */,
+				04C49CFC28DC7BA500BA3AAE /* MediaPlayer.framework */,
+				04C49CFA28DC7B9F00BA3AAE /* AssetsLibrary.framework */,
+				04C49CF828DC7B9900BA3AAE /* CoreText.framework */,
+				04C49CF628DC7B9200BA3AAE /* AVKit.framework */,
+				04C49CF428DC7B8B00BA3AAE /* CoreMedia.framework */,
+				04C49CF228DC7B8500BA3AAE /* AddressBook.framework */,
+				04C49CF028DC7B7F00BA3AAE /* CoreTelephony.framework */,
+				04C49CEE28DC7B7900BA3AAE /* CoreGraphics.framework */,
+				04C49CEC28DC7B7200BA3AAE /* OpenGLES.framework */,
+				04C49CEA28DC7B6C00BA3AAE /* AVFoundation.framework */,
+				04C49CE828DC7B6600BA3AAE /* JavaScriptCore.framework */,
+				84652C040E3FF336D0FF6882 /* Pods_UniSDKDemoForOc.framework */,
+				F79ACEE451AF52A11D155068 /* Pods_UniSDKDemoForOc_UniSDKDemoForOcUITests.framework */,
+				16B288104E974AF1B3952370 /* Pods_UniSDKDemoForOcTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C49BB528DC79F300BA3AAE /* UniSDKDemoForOc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C49BE528DC79F500BA3AAE /* Build configuration list for PBXNativeTarget "UniSDKDemoForOc" */;
+			buildPhases = (
+				EB932F9096AC75F0623E95E8 /* [CP] Check Pods Manifest.lock */,
+				04C49BB228DC79F300BA3AAE /* Sources */,
+				04C49BB328DC79F300BA3AAE /* Frameworks */,
+				04C49BB428DC79F300BA3AAE /* Resources */,
+				226FEF9A5D48A20FA56D4B68 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniSDKDemoForOc;
+			productName = UniSDKDemoForOc;
+			productReference = 04C49BB628DC79F300BA3AAE /* UniSDKDemoForOc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04C49BD028DC79F500BA3AAE /* UniSDKDemoForOcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C49BE828DC79F500BA3AAE /* Build configuration list for PBXNativeTarget "UniSDKDemoForOcTests" */;
+			buildPhases = (
+				2EAB9B5A72C37CA315201310 /* [CP] Check Pods Manifest.lock */,
+				04C49BCD28DC79F500BA3AAE /* Sources */,
+				04C49BCE28DC79F500BA3AAE /* Frameworks */,
+				04C49BCF28DC79F500BA3AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C49BD328DC79F500BA3AAE /* PBXTargetDependency */,
+			);
+			name = UniSDKDemoForOcTests;
+			productName = UniSDKDemoForOcTests;
+			productReference = 04C49BD128DC79F500BA3AAE /* UniSDKDemoForOcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04C49BDA28DC79F500BA3AAE /* UniSDKDemoForOcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C49BEB28DC79F500BA3AAE /* Build configuration list for PBXNativeTarget "UniSDKDemoForOcUITests" */;
+			buildPhases = (
+				957278582D67FBB11720855C /* [CP] Check Pods Manifest.lock */,
+				04C49BD728DC79F500BA3AAE /* Sources */,
+				04C49BD828DC79F500BA3AAE /* Frameworks */,
+				04C49BD928DC79F500BA3AAE /* Resources */,
+				92C179157C5CBE60DC906D7F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C49BDD28DC79F500BA3AAE /* PBXTargetDependency */,
+			);
+			name = UniSDKDemoForOcUITests;
+			productName = UniSDKDemoForOcUITests;
+			productReference = 04C49BDB28DC79F500BA3AAE /* UniSDKDemoForOcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C49BAE28DC79F300BA3AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = USO_;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					04C49BB528DC79F300BA3AAE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					04C49BD028DC79F500BA3AAE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 04C49BB528DC79F300BA3AAE;
+					};
+					04C49BDA28DC79F500BA3AAE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 04C49BB528DC79F300BA3AAE;
+					};
+				};
+			};
+			buildConfigurationList = 04C49BB128DC79F300BA3AAE /* Build configuration list for PBXProject "UniSDKDemoForOc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C49BAD28DC79F300BA3AAE;
+			productRefGroup = 04C49BB728DC79F300BA3AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C49BB528DC79F300BA3AAE /* UniSDKDemoForOc */,
+				04C49BD028DC79F500BA3AAE /* UniSDKDemoForOcTests */,
+				04C49BDA28DC79F500BA3AAE /* UniSDKDemoForOcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C49BB428DC79F300BA3AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C49F7628DDCED900BA3AAE /* SplashView.xib in Resources */,
+				04C49BC928DC79F500BA3AAE /* LaunchScreen.storyboard in Resources */,
+				045389A228F26FC500A436AD /* __UNI__1F141E6.wgt in Resources */,
+				04C49F5828DDC53F00BA3AAE /* __uniappes6.js in Resources */,
+				04C49F5D28DDC53F00BA3AAE /* weex-polyfill.js in Resources */,
+				04C49BC628DC79F500BA3AAE /* Assets.xcassets in Resources */,
+				04C49F5A28DDC53F00BA3AAE /* PandoraApi.bundle in Resources */,
+				04C49F5C28DDC53F00BA3AAE /* unincomponents.ttf in Resources */,
+				04C49BC428DC79F300BA3AAE /* Main.storyboard in Resources */,
+				04C49F5B28DDC53F00BA3AAE /* uni-jsframework-vue3.js in Resources */,
+				04C49F5E28DDC53F00BA3AAE /* weexUniJs.js in Resources */,
+				04C49F5928DDC53F00BA3AAE /* uni-jsframework.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C49BCF28DC79F500BA3AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C49BD928DC79F500BA3AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		226FEF9A5D48A20FA56D4B68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniSDKDemoForOc/Pods-UniSDKDemoForOc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniSDKDemoForOc/Pods-UniSDKDemoForOc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniSDKDemoForOc/Pods-UniSDKDemoForOc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EAB9B5A72C37CA315201310 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniSDKDemoForOcTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92C179157C5CBE60DC906D7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests/Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests/Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests/Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		957278582D67FBB11720855C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB932F9096AC75F0623E95E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniSDKDemoForOc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C49BB228DC79F300BA3AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C49BF228DC7AB100BA3AAE /* TostaObject.m in Sources */,
+				04C49F7528DDCED900BA3AAE /* SplashView.m in Sources */,
+				04C49D0C28DD46B700BA3AAE /* USO_GSGztModel.m in Sources */,
+				04C49BC128DC79F300BA3AAE /* ViewController.m in Sources */,
+				04C49D0F28DD496800BA3AAE /* DBManager.m in Sources */,
+				04C49D1328DD575B00BA3AAE /* NetWorkDownLoadManager.m in Sources */,
+				04C49BBB28DC79F300BA3AAE /* AppDelegate.m in Sources */,
+				04C49CE628DC7AFA00BA3AAE /* USO_UniDataManager.m in Sources */,
+				04C49BCC28DC79F500BA3AAE /* main.m in Sources */,
+				04C49CE728DC7AFA00BA3AAE /* USO_UniMpManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C49BCD28DC79F500BA3AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C49BD628DC79F500BA3AAE /* UniSDKDemoForOcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C49BD728DC79F500BA3AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C49BE028DC79F500BA3AAE /* UniSDKDemoForOcUITests.m in Sources */,
+				04C49BE228DC79F500BA3AAE /* UniSDKDemoForOcUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C49BD328DC79F500BA3AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C49BB528DC79F300BA3AAE /* UniSDKDemoForOc */;
+			targetProxy = 04C49BD228DC79F500BA3AAE /* PBXContainerItemProxy */;
+		};
+		04C49BDD28DC79F500BA3AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C49BB528DC79F300BA3AAE /* UniSDKDemoForOc */;
+			targetProxy = 04C49BDC28DC79F500BA3AAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04C49BC228DC79F300BA3AAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C49BC328DC79F300BA3AAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C49BC728DC79F500BA3AAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C49BC828DC79F500BA3AAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C49BE328DC79F500BA3AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04C49BE428DC79F500BA3AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C49BE628DC79F500BA3AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF5AC427B65EC5B95DDA72E /* Pods-UniSDKDemoForOc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSG93TZ23V;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UniSDKDemoForOc/Vendor/UniMPSDK/Core/Libs",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UniSDKDemoForOc/PrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UniSDKDemoForOc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSCameraUsageDescription = "使用相机";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UniSDKDemoForOc/Vendor/UniMPSDK/Core/Libs",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NARI.mobileApp.UniSDKDemoForOc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04C49BE728DC79F500BA3AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D255DBDEECC7754353F8D764 /* Pods-UniSDKDemoForOc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSG93TZ23V;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UniSDKDemoForOc/Vendor/UniMPSDK/Core/Libs",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UniSDKDemoForOc/PrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UniSDKDemoForOc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_NSCameraUsageDescription = "使用相机";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UniSDKDemoForOc/Vendor/UniMPSDK/Core/Libs",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NARI.mobileApp.UniSDKDemoForOc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04C49BE928DC79F500BA3AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170F11A7DF3FEFA5894DF893 /* Pods-UniSDKDemoForOcTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSG93TZ23V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NARI.mobileApp.UniSDKDemoForOcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniSDKDemoForOc.app/UniSDKDemoForOc";
+			};
+			name = Debug;
+		};
+		04C49BEA28DC79F500BA3AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155F041A12B1D9F158EA6961 /* Pods-UniSDKDemoForOcTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSG93TZ23V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NARI.mobileApp.UniSDKDemoForOcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniSDKDemoForOc.app/UniSDKDemoForOc";
+			};
+			name = Release;
+		};
+		04C49BEC28DC79F500BA3AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F93D7A0E678E460505D154 /* Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSG93TZ23V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NARI.mobileApp.UniSDKDemoForOcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UniSDKDemoForOc;
+			};
+			name = Debug;
+		};
+		04C49BED28DC79F500BA3AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F026B189C9E8555C64DE26B6 /* Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSG93TZ23V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NARI.mobileApp.UniSDKDemoForOcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UniSDKDemoForOc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C49BB128DC79F300BA3AAE /* Build configuration list for PBXProject "UniSDKDemoForOc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C49BE328DC79F500BA3AAE /* Debug */,
+				04C49BE428DC79F500BA3AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C49BE528DC79F500BA3AAE /* Build configuration list for PBXNativeTarget "UniSDKDemoForOc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C49BE628DC79F500BA3AAE /* Debug */,
+				04C49BE728DC79F500BA3AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C49BE828DC79F500BA3AAE /* Build configuration list for PBXNativeTarget "UniSDKDemoForOcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C49BE928DC79F500BA3AAE /* Debug */,
+				04C49BEA28DC79F500BA3AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C49BEB28DC79F500BA3AAE /* Build configuration list for PBXNativeTarget "UniSDKDemoForOcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C49BEC28DC79F500BA3AAE /* Debug */,
+				04C49BED28DC79F500BA3AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C49BAE28DC79F300BA3AAE /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_UniSDKDemoForOc_UniSDKDemoForOcUITests {
+  umbrella header "Pods-UniSDKDemoForOc-UniSDKDemoForOcUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

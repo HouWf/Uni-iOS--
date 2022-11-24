@@ -1,0 +1,54 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "首页"
+		}
+	}, {
+		"path": "pages/home/home",
+		"style": {
+			"navigationStyle": "custom",
+			"enablePullDownRefresh": false,
+			"navigationBarBackgroundColor": "#FBFBFB" // 导航+状态栏颜色
+		}
+	},  {
+		"path": "pages/redirect/redirect",
+		"style": {
+			"navigationBarTitleText": "直达页",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/pageLife/pageLife",
+		"style": {
+			"navigationBarTitleText": "生命周期",
+			"enablePullDownRefresh": false,
+			"app-plus": {
+				"titleNView": {
+					"type": "transparent"
+				}
+			}
+		}
+
+	}, {
+		"path": "pages/pageLife/update",
+		"style": {
+			"navigationBarTitleText": "检测更新",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+
+	// 如果您是通过uni_modules形式引入uView，可以忽略此配置
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	}
+}
